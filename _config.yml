@@ -1,0 +1,3 @@
+
+include:      [".htaccess","vendor",node_modules]
+keep_files:   [".git", ".svn"]
