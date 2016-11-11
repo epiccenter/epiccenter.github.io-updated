@@ -123,16 +123,18 @@ aside {
   background-color: transparent;
 }
 @media (min-width: 768px) {
-  .navbar-default {
+  
+  /*.navbar-default {
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.3);
   }
+  */
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: white;
+    color: green;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -172,7 +174,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.png');
+  background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
 }
